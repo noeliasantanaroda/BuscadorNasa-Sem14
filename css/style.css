@@ -1,21 +1,33 @@
+
 main {
-    min-height: calc(100vh - 160px);
-  }
-  /* Personalización de tarjetas */
-.card-img-top {
-  max-height: 200px;
-  object-fit: cover;
+min-height: calc(100vh - 160px);
 }
 
 .card-title {
-  font-size: 1.25rem;
-  font-weight: bold;
+font-size: 1.25rem;
+font-weight: bold;
 }
+
 
 .card-text {
-  font-size: 0.9rem;
+font-size: 0.9rem;
 }
 
+
 #resultados {
-  margin-top: 20px;
+margin-top: 20px;
+}
+
+.card {
+  height: 400px; /* Ajusta este valor según tus necesidades */
+}
+
+.card-img-top {
+  height: 200px; /* Ajusta este valor según tus necesidades */
+  object-fit: cover;
+}
+
+.card-body {
+  max-height: 200px; /* Ajusta este valor según tus necesidades */
+  overflow-y: auto;
 }
